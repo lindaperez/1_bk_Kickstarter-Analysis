@@ -62,7 +62,7 @@ Create a line chart from the pivot table to visualize the relationship between o
 
 Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to the resources folder.
 
-![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 
 
@@ -84,12 +84,12 @@ Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to 
 
 3. Goal column with twelve rows of ranges
 
-![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/1wholeView.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/1wholeView.png)
 
 
 4. Use COUNTIFS() functions 
 
-![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/countIf.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/countIf.png)
 
 5. Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
 6. Calculate the percentage of successful, failed, and canceled projects for each row.
@@ -97,7 +97,7 @@ Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to 
 8. Confirm that your line chart looks like the following, and save it as Outcomes_vs_Goals.png to the resources folder.
 
 
-![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 
 
@@ -107,21 +107,8 @@ Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to 
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-- What can you conclude about the Outcomes based on Goals?
 
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
-
-
-
-
-
-
-
-
-
-The view Analysis of Outcomes Based on Launch Date provides the way to answer our second fundamental question that is, What is the best time to create a "Play" Crowdfunding campaign. 
+The view Analysis of Outcomes Based on Launch Date provides the way to answer our first fundamental question that is, What is the best time to create a "Play" Crowdfunding campaign. 
 
 The way that this view answer this questions and some others is through a pivot table and a pivot chart. 
 
@@ -137,23 +124,15 @@ Definitely, It may help to define when the Play campaign should be launch based 
 
 
 
+- What can you conclude about the Outcomes based on Goals?
 
-The view Analysis of Outcomes Based on Goals provides the way to answer our thrid fundamental question that is, Will be able the campaign to reach the goal spected, $ 10.000, is it too much to launch the campaig? Is there any correlation betweeen the goal amount and the succefulness of Play campaigns?
+
+The view Analysis of Outcomes Based on Goals provides the way to answer our second fundamental question that is, Will be able the campaign to reach the goal spected, $ 10.000, is it too much to launch the campaig? Is there any correlation betweeen the goal amount and the succefulness of Play campaigns?
 
 To answer this questions It was designed a table with the range of possible Goals or bugets and the amount of the successful, failed, canceled projects and their percentages. 
 
 
 
+- What are some limitations of this dataset?
 
-Perform an analysis of Crowdfunding projects to uncover hidden trends.
-Analyze and create insights based on the data collected from Crowdfunding projects
-### Purpose
-Make conclusions that can show up the trends 
-
-### Questions 
-
-
-
-From a previous analysis it was possible to conclude that the most successful campaigns were over the years the "Plays" campaigns. Then, sounded very acertive to launch a campaign about that subject. 
-
-Now its time to answer the remain of the previous questions.
+- What are some other possible tables and/or graphs that we could create?
