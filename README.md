@@ -36,7 +36,7 @@ After it, we could think about that filter by the parent category could help us 
 	3. In the Kickstarter_Challenge.xlsx workbook, create a new column labeled "Years."
 	4. In the "Years" column, use the YEAR() function to extract the year from the “Date Created Conversion” column.
 
-	![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/yearsFormula.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/yearsFormula.png)
 
 
 	5. Create a pivot table from the KickStarter worksheet, and place the pivot table in a new sheet.
