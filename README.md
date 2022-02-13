@@ -23,6 +23,7 @@ Part of the challeging things could be to understand the business, the requireme
 
 
 ### Analysis of Outcomes Based on Launch Date
+
 The way to solve the exercise was following the steps mentioned in the Excel Module. 
 
 1. Rename the StarterBook.xlsx
@@ -60,15 +61,43 @@ The way to solve the exercise was following the steps mentioned in the Excel Mod
 Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 
 Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to the resources folder.
-https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png
+
+![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 
 
 
 ### Analysis of Outcomes Based on Goals
 
+1. In the KickStarter sheet, create a new sheet and label it "Outcomes Based on Goals."
+2. In the new sheet, create the following columns to hold the data:
+- Goal
+- Number Successful
+- Number Failed
+- Number Canceled
+- Total Projects
+- Percentage Successful
+- Percentage Failed
+- Percentage Canceled
+
+2. In the “Goal” column group on the goal amounte.
+
+3. Goal column with twelve rows of ranges
+
+![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/1wholeView.png)
 
 
+4. Use COUNTIFS() functions 
+
+![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/countIf.png)
+
+5. Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
+6. Calculate the percentage of successful, failed, and canceled projects for each row.
+7. Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
+8. Confirm that your line chart looks like the following, and save it as Outcomes_vs_Goals.png to the resources folder.
+
+
+![This is an image] (https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 
 
