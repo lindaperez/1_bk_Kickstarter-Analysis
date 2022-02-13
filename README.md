@@ -3,23 +3,24 @@
 ## Overview of Project
 ### Purpose
 
-The project consist in analyze a dataset to generate insights. Based on a excel of Crowdfunding campaigns data with 4113 rows, determine the specific factors that influence the creation of a play campain with an estimated budget of $10.000. Most specifically, generate sheets that serves as a tool to answer a variety of possible questions decisive to create a crowdfunding campaign.
+The project consist in analyze a dataset to generate insights. Based on a excel of Crowdfunding campaigns data with 4113 rows, determine the specific factors that influence the creation of a Play campain with an estimated budget of $10.000. Most specifically, generate sheets that serves as a tool to answer a variety of possible questions decisive to create a crowdfunding campaign.
 
 ## Analysis and Challenges
 
-Before have started developing a solution, it was important to think about possible questions, there were some questions that came up from the analysis of the project requirements and the raw data. Part of the challeging things were to understand the business, the requirements and how to get the solutions. For that I read the information several times, follow the Module guideline and wrote the question in a piece of paper:
+Before have started developing a solution, it was important to think about possible questions that should be answer. These questions came up during the analysis of the project, the requirements and the raw data:
+
+1. When is the best time to lauch the Play campaign. 
+
+2. Is it an strategic decision to create a crowdfunding with that particular budget, should the budget be less or more? Are there any relationship between the goal and successful campaigns? 
+
+3. Create the campaign in a different country may help funding the goal budget?
+
+4. How long would be the campaign?
+
+ 
+Part of the challeging things could be to understand the business, the requirements and how to get to the solutions without the module guidance. 
 
 
-1. Is it benefitial to start a Play campaign, or it is detinated to fail because of its kind of category/subcategory? 
-
-2. When is the best time to lauch the campaign. 
-
-3. Is it an strategic decision to create a crowdfunding with that particular budget, should the budget be less or more? Are there any relationship between the goal and successful campaigns? 
-
-
-From a previous analysis it was possible to conclude that the most successful campaigns were over the years the "Plays" campaigns. Then, sounded very acertive to launch a campaign about that subject. 
-
-Now its time to answer the remain of the previous questions.
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -75,3 +76,7 @@ Make conclusions that can show up the trends
 ### Questions 
 
 
+
+From a previous analysis it was possible to conclude that the most successful campaigns were over the years the "Plays" campaigns. Then, sounded very acertive to launch a campaign about that subject. 
+
+Now its time to answer the remain of the previous questions.
