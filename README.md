@@ -21,9 +21,8 @@ Before to start developing a solution, it is important to think about possible q
 
 ### Analysis of Outcomes Based on Launch Date
 
-The way to solve this case is thinking how to answer the questions above, especifically. When is the best time to launch the Play campaign? We inmediatly think about, how to get a relation between the launch_date and the outcomes. We were able to think that we needed to display the months and see how many projects were successful, failed or canceled over the years.
-
-After it, we could think about that filter by the parent category could help us to have a more acurate answer.
+The way to solve this case is thinking how to answer the questions above, especifically. When is the best time to launch the Play campaign? We inmediatly thought about, how to get a relation between the launch_date and the outcomes. We were able to think that we needed to display the months and see how many projects were successful, failed or canceled over the years.
+After it, we could think about that filter by the parent category was very help us to have a more acurate answer.
 
 
 	The process to solve it was following the steps in the Excel Module, here some images:
@@ -72,8 +71,8 @@ After it, we could think about that filter by the parent category could help us 
 ### Analysis of Outcomes Based on Goals
 
 
-Then, we needed to think about the next question that was. Is it an strategic decision to create a crowdfunding with that particular budget $10.000, should the budget be less or more? Are there any relationship between the goal and successful campaigns? 
-Initially the proccess to solve it was followint the sted in the Excel module, but during the process we could realize that we were getting the answer displaying the outcomes successful, failed, canceled by the goal ranges or budget ranges. 
+For this case, we thought about the next question that was. Is it an strategic decision to create a crowdfunding with that particular budget $10.000, should the budget be less or more? Are there any relationship between the goal and successful campaigns? 
+Initially the proccess to solve it was followint the steps in the Excel module, but during the process we could realize that we were getting the answer displaying the outcomes successful, failed, canceled with the the goal ranges or budget ranges. This help to understand that how many projects were successfull with every range of budget for example, with a budget between $10.000  and $14999 there were 39 successful projects over 72. To have a most readible result we took the percetage succefull, failed and canceled. The we could understand that with a budget between $10.000 to $14999 the percetage of sucefulness would be around 54% and the failness 46%.  
 
 
 The process to solve it was following the steps in the Excel Module, here some images:
