@@ -92,6 +92,10 @@ Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/countIf.png)
 
 5. Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
+
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/5sum.png)
+
+
 6. Calculate the percentage of successful, failed, and canceled projects for each row.
 7. Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
 8. Confirm that your line chart looks like the following, and save it as Outcomes_vs_Goals.png to the resources folder.
@@ -108,29 +112,30 @@ Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 
-The view Analysis of Outcomes Based on Launch Date provides the way to answer our first fundamental question that is, What is the best time to create a "Play" Crowdfunding campaign. 
+	The view Analysis of Outcomes Based on Launch Date provides the way to answer our first fundamental question that is, What is the best time to create a "Play" Crowdfunding campaign. 
 
-The way that this view answer this questions and some others is through a pivot table and a pivot chart. 
+	The best month is May.
 
-* The pivot table shows a pinpoint in May that represent the month where the Play campaigns have overcomed most successfully over the years with 111 campaigns. 
+	The way that this view answer this questions and some others is through a pivot table and a pivot chart. 
 
-
-The best way to compare how are the months balanced over the years is the pivot chart.
-
-* The pivot chart image "Theater Outcomes Based on Launch Date" shows a Line Chart with several pinpoints one of them represents the most succefull month to launch a category that is May with 111, some others worst escenarios like may and october with 52 and 50 failed campaigns respectively.
+	* The pivot table shows a pinpoint in May that represent the month where the Play campaigns have overcomed most successfully over the years. 
 
 
-Definitely, It may help to define when the Play campaign should be launch based on the history of the campaigns. 
+	The best way to compare how the months are balanced over the years is the pivot chart.
+
+	* The pivot chart image "Theater Outcomes Based on Launch Date" shows a Line Chart with several pinpoints one of them represents the most succefull month to launch a category that is May with 111, some others worst escenarios like may and october with 52 and 50 failed campaigns respectively.
+
+
+	Definitely, It may help to define when the Play campaign should be launch based on the history of the campaigns. 
 
 
 
 - What can you conclude about the Outcomes based on Goals?
 
 
-The view Analysis of Outcomes Based on Goals provides the way to answer our second fundamental question that is, Will be able the campaign to reach the goal spected, $ 10.000, is it too much to launch the campaig? Is there any correlation betweeen the goal amount and the succefulness of Play campaigns?
+	The view Analysis of Outcomes Based on Goals provides the way to answer our second fundamental question that is, Will be able the campaign to reach the goal spected, $ 10.000, is it too much to launch the campaig? Is there any correlation betweeen the goal amount and the succefulness of Play campaigns?
 
-To answer this questions It was designed a table with the range of possible Goals or bugets and the amount of the successful, failed, canceled projects and their percentages. 
-
+	To answer this questions It was designed a table with the range of possible Goals or bugets and the amount of the successful, failed, canceled projects and their percentages. 
 
 
 - What are some limitations of this dataset?
