@@ -30,14 +30,7 @@ The way to solve the exercise was following the steps mentioned in the Excel Mod
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/renamed.png)
 
 2. Create a folder called “resources”.
-
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/resources.png)
-
-
 3. In the Kickstarter_Challenge.xlsx workbook, create a new column labeled "Years."
-
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/yearColumn.png)
-
 4. In the "Years" column, use the YEAR() function to extract the year from the “Date Created Conversion” column.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/yearsFormula.png)
@@ -48,20 +41,23 @@ The way to solve the exercise was following the steps mentioned in the Excel Mod
 7. Filter the pivot table based on "Parent Category" and "Years."
 8. Place the appropriate pivot table fields in the columns, rows, and values.
 9. Filter the column labels to show only "successful," "failed," and "canceled."
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/allPivot.png)
-10. Confirm that your pivot table looks like this:
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/originalPivotTable.png)	
+10. Confirm that your pivot table.
+
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/9pivotTable.png)
+
 
 11. Filter the "Parent Category" to show only the data for "theater."
 12. Sort the campaign outcomes in descending order so "successful" is first.
+
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/descendingOrder.png)
-13. Confirm that your final pivot table looks like the following:
+
+13. Confirm that your final pivot table looks correctly.
+
 14. The final pivot table with successful, failed, and canceled theater Kickstarter campaigns by month.
+
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/pivotTable.png)
 
 Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
-
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/pivotTable.png)
 
 Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to the resources folder.
 https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png
