@@ -30,7 +30,7 @@ After it, we could think about that filter by the parent category could help us 
 
 	1. Rename the StarterBook.xlsx
 
-	![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/renamed.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/renamed.png)
 
 	2. Create a folder called “resources”.
 	3. In the Kickstarter_Challenge.xlsx workbook, create a new column labeled "Years."
@@ -46,61 +46,68 @@ After it, we could think about that filter by the parent category could help us 
 	9. Filter the column labels to show only "successful," "failed," and "canceled."
 	10. Confirm that your pivot table.
 
-	![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/9pivotTable.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/9pivotTable.png)
 
 
 	11. Filter the "Parent Category" to show only the data for "theater."
 	12. Sort the campaign outcomes in descending order so "successful" is first.
 
-	![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/descendingOrder.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/descendingOrder.png)
 
 	13. Confirm that your final pivot table looks correctly.
 
 	14. The final pivot table with successful, failed, and canceled theater Kickstarter campaigns by month.
 
-	![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/pivotTable.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/pivotTable.png)
 
 	Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
 
 	Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to the resources folder.
 
-	![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 
 
 
 ### Analysis of Outcomes Based on Goals
 
-1. In the KickStarter sheet, create a new sheet and label it "Outcomes Based on Goals."
-2. In the new sheet, create the following columns to hold the data:
-- Goal
-- Number Successful
-- Number Failed
-- Number Canceled
-- Total Projects
-- Percentage Successful
-- Percentage Failed
-- Percentage Canceled
 
-2. In the “Goal” column group on the goal amounte.
+Then, we needed to think about the next question that was. Is it an strategic decision to create a crowdfunding with that particular budget $10.000, should the budget be less or more? Are there any relationship between the goal and successful campaigns? 
+Initially the proccess to solve it was followint the sted in the Excel module, but during the process we could realize that we were getting the answer displaying the outcomes successful, failed, canceled by the goal ranges or budget ranges. 
 
-3. Goal column with twelve rows of ranges
+
+The process to solve it was following the steps in the Excel Module, here some images:
+
+	1. In the KickStarter sheet, create a new sheet and label it "Outcomes Based on Goals."
+	2. In the new sheet, create the following columns to hold the data:
+	- Goal
+	- Number Successful
+	- Number Failed
+	- Number Canceled
+	- Total Projects
+	- Percentage Successful
+	- Percentage Failed
+	- Percentage Canceled
+
+	2. In the “Goal” column group on the goal amounte.
+
+	3. Goal column with twelve rows of ranges
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/1wholeView.png)
 
 
-4. Use COUNTIFS() functions 
+	4. Use COUNTIFS() functions 
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/countIf.png)
 
-5. Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
+	5. Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/5sum.png)
 
 
-6. Calculate the percentage of successful, failed, and canceled projects for each row.
-7. Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
-8. Confirm that your line chart looks like the following, and save it as Outcomes_vs_Goals.png to the resources folder.
+	6. Calculate the percentage of successful, failed, and canceled projects for each row.
+	7. Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
+	8. Confirm that your line chart looks like the following, and save it as Outcomes_vs_Goals.png to the resources folder.
 
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
