@@ -19,8 +19,8 @@ Before to start developing a solution, it is important to think about possible q
 
 ### Analysis of Outcomes Based on Launch Date
 
-The way to solve this case is thinking how to answer the questions above, especifically. When is the best time to launch the Play campaign? We inmediatly thought about, how to get a relation between the launch_date and the outcomes. We were able to think that we needed to display the months and see how many projects were successful, failed or canceled over the years.
-After it, we could think about that filter by the parent category was very help us to have a more acurate answer.
+The way to solve this case is thinking how to answer the questions above, especifically. When is the best time to launch the Play campaign? We inmediatly thought about, how to get a relation between the launch_at and the outcomes. We were able to think that we needed to display the months and see how many projects were successful, failed or canceled over the years.
+After it, we could think about that filter by the parent category was very helpful to have a more acurate answer.
 
 The way that this view answer this questions and some others is through a pivot table and a pivot chart. 
 
@@ -31,43 +31,41 @@ The best way to compare how the months were distributed over the years is the pi
 
 * The pivot chart image "Theater Outcomes Based on Launch Date" shows a Line Chart with several pinpoints one of them represents the most succefull month to launch a category that is May with 111 over 166, some others worst escenarios like december where the amount of sucessfull campaign is very short around 35 over 75.
 
-	The process to solve it was following the steps in the Excel Module, here some images:
+The process to solve it was following the steps in the Excel Module, here some images:
 
-	1. Rename the StarterBook.xlsx
+	1. StarterBook.xlsx Renamed.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/renamed.png)
 
-	2. Create a folder called “resources”.
-	3. In the Kickstarter_Challenge.xlsx workbook, create a new column labeled "Years."
-	4. In the "Years" column, use the YEAR() function to extract the year from the “Date Created Conversion” column.
+	2. Resources folder created.
+	3. Year column created.
+	4. Date created conversion created.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/yearsFormula.png)
 
 
-	5. Create a pivot table from the KickStarter worksheet, and place the pivot table in a new sheet.
-	6. Label the sheet "Theater Outcomes by Launch Date."
-	7. Filter the pivot table based on "Parent Category" and "Years."
-	8. Place the appropriate pivot table fields in the columns, rows, and values.
-	9. Filter the column labels to show only "successful," "failed," and "canceled."
-	10. Confirm that your pivot table.
+	5. Pivot table created.
+	6. "Theater Outcomes by Launch Date." name setted
+	7. Filters  "Parent Category" and "Years." created
+	8. Placed the pivot table.
+	9. Column filtered. 
+	10. The pivot table looked as expected. 
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/9pivotTable.png)
 
 
-	11. Filter the "Parent Category" to show only the data for "theater."
-	12. Sort the campaign outcomes in descending order so "successful" is first.
+	11. Filter by "Theater" created.
+	12. Sort the campaign made.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/descendingOrder.png)
 
-	13. Confirm that your final pivot table looks correctly.
+	13. Pivot table correctly.
 
-	14. The final pivot table with successful, failed, and canceled theater Kickstarter campaigns by month.
+	14. Image of the final pivot table.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/pivotTable.png)
 
-	Create a line chart from the pivot table to visualize the relationship between outcomes and launch month.
-
-	Add a title to the line chart, and save it as Theater_Outcomes_vs_Launch.png to the resources folder.
+	15. Chart created with the tittle Theater_Outcomes_vs_Launch.png
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
@@ -78,45 +76,27 @@ The best way to compare how the months were distributed over the years is the pi
 
 
 For this case, we thought about the next question that was. Is it an strategic decision to create a crowdfunding with that particular budget $10.000, should the budget be less or more? Are there any relationship between the budget and successful campaigns? 
-Initially the proccess to solve it was following the steps in the Excel module, but during the process we could realize that we were getting the answer, displaying the outcomes (successful, failed, canceled) with the the goal ranges or budget ranges. This helps to understand how many projects were successfull with every range of budget. For example, with a budget between $10.000  and $14.999 there were 39 successful projects over 72. To have a most readible result we took the percetage. Then, with a budget between $10.000 to $14999 the percetage of sucefulness would be around 54% and the failness 46%. It it the best budget for the project? 
+Initially the proccess to solve it was following the steps in the Excel module, but during the process we could realize that we were getting the answer, displaying the outcomes (successful, failed, canceled) with the the goal ranges or budget ranges. This helps to understand how many projects were successfull with every range of budget. For example, with a budget between $10.000  and $14.999 there were 39 successful projects over 72. To have a most readible result we took the percetage. Then, with a budget between $10.000 to $14999 the percetage of sucefulness is around 54% and the failness 46%. It it the best budget for the project? 
 
 To answer this questions It was designed a table with the range of possible Goals or bugets and the amount of the successful, failed, canceled projects and their percentages. 
 
 The countIf function helped to count the outcomes by some criterias.
 
-The process to solve it was following the steps in the Excel Module, here some images:
+The process to solve it was following the steps in the Excel Module, here the steps:
 
-	1. In the KickStarter sheet, create a new sheet and label it "Outcomes Based on Goals."
-	2. In the new sheet, create the following columns to hold the data:
-	- Goal
-	- Number Successful
-	- Number Failed
-	- Number Canceled
-	- Total Projects
-	- Percentage Successful
-	- Percentage Failed
-	- Percentage Canceled
-
-	2. In the “Goal” column group on the goal amounte.
-
-	3. Goal column with twelve rows of ranges
-
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/1wholeView.png)
-
-
-	4. Use COUNTIFS() functions 
+	1. Sheet "Outcomes Based on Goals." created.
+	2. Columns setted.
+	3. Ranges setted.
+	4. COUNTIFS() function
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/countIf.png)
 
-	5. Use the SUM() function to populate the "Total Projects" column with the number of successful, failed, and canceled projects for each row.
+	5. Totals populated.
+	6. Percentages calculated.
 
-![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/5sum.png)
-
-
-	6. Calculate the percentage of successful, failed, and canceled projects for each row.
-	7. Create a line chart titled "Outcomes Based on Goal" to visualize the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis.
-	8. Confirm that your line chart looks like the following, and save it as Outcomes_vs_Goals.png to the resources folder.
-
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/1wholeView.png)
+	
+	7. Chart created.
 
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
