@@ -101,25 +101,25 @@ The process to solve it was following the steps in the Excel Module, here the st
 ![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 
-
 ### Challenges and Difficulties Encountered
 
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-	May is the best month to launch a Play campaign. After this, the second one would be between April, May and somedays of June. After May the amount of outcomes start falling unitl January of the next year where they start increasing again. 
-
+	
 	The view "Analysis of Outcomes Based on Launch Date" provides the way to answer our first fundamental question that is, What is the best time to create a "Play" Crowdfunding campaign based on the Parent category "Theater" over the years from 2009 and 2017. 
 
-- What can you conclude about the Outcomes based on Goals?
+	May is the best month to launch a Play campaign. After this, the second one would be between April, May and somedays of June. After May the amount of outcomes start falling until January of the next year where they start increasing again. 
 
-	The projects with a budget less than $1000 are the most successful with a 76% of acertiveness over the years. After it could be a better idea reduce the budget to a range between $1000 to $4999 due to 73% of those projects get the whole budget. If the customer can not reduce the budget something that can help is to have a greater budget, between 35000 and 44999, those projects were succefull in 67% of the cases.
+	
+
+- What can you conclude about the Outcomes based on Goals?
+	
+	The view Analysis of Outcomes Based on Goals provides the way to answer our second fundamental question that is, Will the campaign be able to reach the goal expected, $ 10.000? 
 
 	Having a budget of $10000 is hard to get with 54% of the cases aproved.
 
-	The view Analysis of Outcomes Based on Goals provides the way to answer our second fundamental question that is, Will the campaign be able to reach the goal spected, $ 10.000?
-
+	The projects with a budget less than $1000 are the most successful with a 76% of acertiveness over the years. After it, could be a better idea reduce the budget to a range between $1000 to $4999 due to 73% of those projects got the whole budget. If the customer can not reduce the budget, something that can help is to have a greater budget, between 35000 and 44999, those projects were succefull in 67% of the cases.
 
 - What are some limitations of this dataset?
 
@@ -130,14 +130,18 @@ The process to solve it was following the steps in the Excel Module, here the st
 
 - What are some other possible tables and/or graphs that we could create?
 
-
-	We can ask more question to try to unhide more patterns to create a successful campaigns
+We can ask more question to try to unhide more patterns to create a successful campaigns
 
 	1. Create the campaign in a different country may help funding the goal budget?
+		We can create a table with outcomes and countries and determine what is the country with the most succesful projects by "Play" subcategory.
+
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Outcomes_by_Country.png)
+
 
 	2. How long should be the campaign? 
-		We can create a column name 
+		We can create a column with the number of days that every campaign last and create a table with the average of days that every campaign had, filtered by subcategory "Plays"  
+		Then, we can see that the average days for the most succeful campaigns is 28.5days, with 412 succeful projects.
+![This is an image](https://github.com/lindaperez/kickstarter-analysis/blob/main/Resources/Size_by_Outcomes_Country.png)
 
-	3. The selection of the staff, staff_pic make any difference?
 
 
